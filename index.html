@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="image/weather-app.png">
+</head>
+<body>
+    <div class="container">
+        <h1 id="weatherTitle">Weather Forecast</h1>
+        
+        <div id="inputSection">
+            <input type="text" id="locationInput" placeholder="Enter location...">
+            <div class="button-container">
+                <button onclick="getWeather()">Check Weather</button>
+                <button class="btn" onclick="resetSearch()">Reset</button>
+            </div>
+        </div>
+
+        <div id="loader"></div>
+        <div id="weatherResult"></div>
+
+        <h2 id="historyTitle" style="display: none; margin-top: 30px;">Past Searches for <span id="locationNameHistory"></span></h2>
+        <ul id="historyList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
