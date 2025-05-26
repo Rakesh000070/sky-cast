@@ -130,22 +130,22 @@ button:hover {
 
 /* Weather Backgrounds */
 .sunny {
-    background-image: url('image/sunny.jpeg');
+    background-image: url('sunny.jpeg');
     background-size: cover;
 }
 
 .cloudy {
-    background-image: url('image/clouldy.jpg');
+    background-image: url('clouldy.jpg');
     background-size: cover;
 }
 
 .rainy {
-    background-image: url('image/rain-2.avif');
+    background-image: url('rain-2.avif');
     background-size: cover;
 }
 
 .stormy {
-    background-image: url('image/stormy.jpg');
+    background-image: url('stormy.jpg');
     background-size: cover;
 }
 
